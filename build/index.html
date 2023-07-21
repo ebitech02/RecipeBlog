@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,220 +8,222 @@
     <title>Food Recipe</title>
     <link rel="stylesheet" href="/build/output.css">
 </head>
+
 <body class="min-h-screen dark:bg-black dark:text-white">
     <header class="p-4 top-0 z-10">
         <div class="max-w-5xl mx-auto px-4 flex justify-around">
-        <a class="text-orange-500 font-bold text-left" href="#">FOODACE</a>
-        <div>
-            <button id="hamburger-button"  class="text-3xl md:hidden cursor-pointer">
+            <a class="text-orange-500 font-bold text-left" href="#">FOODACE</a>
+            <div>
+                <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">
                 &#9776; 
             </button>
+            </div>
+            <nav class="hidden  md:block space-x-8 text-xl" aria-label="main">
+                <a href="#recipe">Recipe</a>
+                <a href="#how">Learn/How to</a>
+                <a href="#">Seasonal Sensation</a>
+                <a class="px-3 py-2 bg-teal-500 text-white rounded-3xl hover:opacity-90" href="#shop">Shop</a>
+            </nav>
         </div>
-        <nav class="hidden  md:block space-x-8 text-xl" aria-label="main">
-            <a href="#recipe">Recipe</a>
-            <a href="#how">Learn/How to</a>
-            <a href="#">Seasonal Sensation</a>
-            <a class="px-3 py-2 bg-teal-500 text-white rounded-3xl hover:opacity-90" href="#shop">Shop</a>
-        </nav>
-        </div>
-        
+
     </header>
     <hr>
     <main class="sm:max-w-5xl mx-auto">
-    <section class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-5 mb-12 sm:gap-10">
-        <div>
-        <h1 class="text-4xl font-semibold mt-24"><span class="text-orange-500 text-4xl">Delicious Dishes</span><br> for Food Lovers</h1>
-        <p class="font-light pb-3">Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Officiis iusto voluptatum</p>
-        <button class="bg-orange-500 text-white px-5 py-3 rounded-full hover:opacity-50">Explore Recipes</button>
-        </div>
-        <img src="/images/Rice-Background-PNG-Image.png" class="pt-8 sm:pt-0" width="400" height="400">
-    </section>
+        <section class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-5 mb-12 sm:gap-10">
+            <div>
+                <h1 class="text-4xl font-semibold mt-24"><span class="text-orange-500 text-4xl">Delicious Dishes</span><br> for Food Lovers</h1>
+                <p class="font-light pb-3">Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Officiis iusto voluptatum</p>
+                <button class="bg-orange-500 text-white px-5 py-3 rounded-full hover:opacity-50">Explore Recipes</button>
+            </div>
+            <img src="/images/Rice-Background-PNG-Image.png" class="pt-8 sm:pt-0" width="400" height="400" alt="food-image">
+        </section>
     </main>
     <section class="pt-20 pb-12 px-7 sm:px-0">
         <div class="flex justify-between sm:flex sm:justify-around py-8">
-        <h2 class="font-semibold text-2xl">Trendy <span class="text-orange-500">Recipes</span></h2>
-        <button class="bg-orange-500 px-3 rounded-full text-white">View More</button>
+            <h2 class="font-semibold text-2xl">Trendy <span class="text-orange-500">Recipes</span></h2>
+            <button class="bg-orange-500 px-3 rounded-full text-white">View More</button>
         </div>
         <div class="flex flex-col mx-3  md:flex md:flex-row md:justify-between md:max-w-4xl md:mx-auto">
             <div>
-            <figure class="bg-zinc-200 rounded-2xl w-64" >
-                <img src="/images/Steak-PNG-HD-Quality.png" width="200" height="200">
-            </figure>
-            <figcaption class="font-semibold p-2 text-center">
-                Super Steak
-            </figcaption>
-            <p class="font-light"><span class="font-semibold">Ingredients:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius earum dignissimos quod quos eveniet.</p>
+                <figure class="bg-zinc-200 rounded-2xl w-64">
+                    <img src="/images/Steak-PNG-HD-Quality.png" width="200" height="200" alt="food-image2">
+                </figure>
+                <figcaption class="font-semibold p-2 text-center">
+                    Super Steak
+                </figcaption>
+                <p class="font-light"><span class="font-semibold">Ingredients:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius earum dignissimos quod quos eveniet.</p>
             </div>
             <div>
-            <figure class="bg-zinc-200 rounded-2xl w-64">
-                <img src="/images/Mexican-Tacos-Transparent-Images.png" width="200" height="200">
-            </figure>
-            <figcaption class="font-semibold p-1 text-center">
-                Mexican Tacos
-            </figcaption>
-            <p class="font-light"><span class="font-semibold">Ingredients:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius earum dignissimos quod quos eveniet.</p>
+                <figure class="bg-zinc-200 rounded-2xl w-64">
+                    <img src="/images/Mexican-Tacos-Transparent-Images.png" width="200" height="200" alt="food-img3">
+                </figure>
+                <figcaption class="font-semibold p-1 text-center">
+                    Mexican Tacos
+                </figcaption>
+                <p class="font-light"><span class="font-semibold">Ingredients:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius earum dignissimos quod quos eveniet.</p>
             </div>
             <div>
-            <figure class="bg-zinc-200 rounded-2xl w-64">
-                <img src="/images/Seafood-Pasta-Free-PNG.png" width="200" height="200">
-            </figure>
-            <figcaption class="font-semibold p-1 text-center">
-                Seafood Pasta
-            </figcaption>
-            <p class="font-light"><span class="font-semibold">Ingredients:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius earum dignissimos quod quos eveniet.</p>
+                <figure class="bg-zinc-200 rounded-2xl w-64">
+                    <img src="/images/Seafood-Pasta-Free-PNG.png" width="200" height="200" alt="seafood-img">
+                </figure>
+                <figcaption class="font-semibold p-1 text-center">
+                    Seafood Pasta
+                </figcaption>
+                <p class="font-light"><span class="font-semibold">Ingredients:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius earum dignissimos quod quos eveniet.</p>
             </div>
         </div>
     </section>
     <section class="mb-10">
         <h3 class="font-semibold text-2xl text-center pb-10" id="shop">Check Our Shop</h3>
         <div class="flex flex-col items-center sm:flex sm:flex-row sm:justify-around sm:max-w-5xl sm:mx-auto md:mx-auto">
-        <div>
-            <figure class="pb-3">
-            <img class="border-4 rounded-full hover:border-orange-500 " src="/images/Salads-Background-PNG-Image.png" width="100" height="100">
-            </figure>
-            <figcaption class="font-semibold pl-4 pb-10">Appetizers</figcaption>
-        </div>
-        <div>
-            <figure class="pb-3">
-            <img class="border-4 rounded-full hover:border-orange-500" src="/images/White-Bread-Transparent-Image.png" width="100" height="100">
-            </figure>
-            <figcaption class="font-semibold pl-6 pb-10">Bread</figcaption>
-        </div>
-        <div>
-            <figure class="pb-3">
-            <img class="border-4 rounded-full hover:border-orange-500" src="/images/Saint-Honore-Download-Free-PNG.png" width="100" height="100">
-            </figure>
-            <figcaption class="pl-4 pb-10">Breakfasts</figcaption>
-        </div>
-        <div>
-            <figure class="p-3">
-            <img class="border-4 rounded-full hover:border-orange-500" src="/images/Noodles-PNG-Clipart-Background.png" width="100" height="100">
-            </figure>
-            <figcaption class="pl-7 pb-10">Noodles</figcaption>
-        </div>
-        <div>
-            <figure class="pb-3">
-            <img class="border-4 rounded-full hover:border-orange-500" src="/images/Burger-Transparent-Free-PNG.png" width="100" height="100">
-            </figure>
-            <figcaption class="pl-5 pb-10">Pastries</figcaption>
-        </div>
-        <div>
-            <figure class="pb-3">
-            <img class="border-4 rounded-full hover:border-orange-500" src="/images/Soup-PNG-Images-HD.png" width="100" height="100">
-            </figure>
-            <figcaption class="pl-7 pb-10">Soup</figcaption>
-        </div>
+            <div>
+                <figure class="pb-3">
+                    <img class="border-4 rounded-full hover:border-orange-500 " src="/images/Salads-Background-PNG-Image.png" width="100" height="100" alt="food-img4">
+                </figure>
+                <figcaption class="font-semibold pl-4 pb-10">Appetizers</figcaption>
+            </div>
+            <div>
+                <figure class="pb-3">
+                    <img class="border-4 rounded-full hover:border-orange-500" src="/images/White-Bread-Transparent-Image.png" width="100" height="100" alt="bread-img">
+                </figure>
+                <figcaption class="font-semibold pl-6 pb-10">Bread</figcaption>
+            </div>
+            <div>
+                <figure class="pb-3">
+                    <img class="border-4 rounded-full hover:border-orange-500" src="/images/Saint-Honore-Download-Free-PNG.png" width="100" height="100" alt="pastry-img">
+                </figure>
+                <figcaption class="pl-4 pb-10">Breakfasts</figcaption>
+            </div>
+            <div>
+                <figure class="p-3">
+                    <img class="border-4 rounded-full hover:border-orange-500" src="/images/Noodles-PNG-Clipart-Background.png" width="100" height="100">
+                </figure>
+                <figcaption class="pl-7 pb-10">Noodles</figcaption>
+            </div>
+            <div>
+                <figure class="pb-3">
+                    <img class="border-4 rounded-full hover:border-orange-500" src="/images/Burger-Transparent-Free-PNG.png" width="100" height="100">
+                </figure>
+                <figcaption class="pl-5 pb-10">Pastries</figcaption>
+            </div>
+            <div>
+                <figure class="pb-3">
+                    <img class="border-4 rounded-full hover:border-orange-500" src="/images/Soup-PNG-Images-HD.png" width="100" height="100">
+                </figure>
+                <figcaption class="pl-7 pb-10">Soup</figcaption>
+            </div>
         </div>
     </section>
 
     <section class="bg-slate-100 px-4 pt-10 pb-10 md:px-0 dark:bg-slate-100 text-black">
         <div class="flex justify-between md:flex md:justify-around">
-        <h3 class="font-semibold text-2xl" id="recipe">Recipe Blogs</h3>
-        <button class="bg-teal-400 text-white p-2 rounded-full">View More</button>
+            <h3 class="font-semibold text-2xl" id="recipe">Recipe Blogs</h3>
+            <button class="bg-teal-400 text-white p-2 rounded-full">View More</button>
         </div>
         <div class="flex flex-col p-4 md:flex md:flex-row md:gap-10 md:justify-around md:mt-10 md:mx-60">
-        <div>
-        <figure>
-            <img class="bg-zinc-900 rounded-2xl" src="/images/Male-Chef-Free-Commercial-Use-PNG-Image.png" width="400" height="400">
-            </figure>
-            <figcaption class="font-light text-center sm:text-left">January 18, 2021</figcaption>
-            <h4 class="font-semibold text-center sm:text-left"><a class="hover:underline" href="#recipe">Our Recipe Blog</a></h4>
-            <p class="flex font-light text-center sm:text-left p-2 sm:p-0 pb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore illum porro reprehenderit.</p>
-        </div>
-        <div>
-            <figure>
-            <img class="float-left rounded-lg mr-3" src="/images/images (1).jpg" width="150" height="100">
-            </figure>
-        
-            <figcaption class="font-light">January 18, 2021</figcaption>
-            <h4 class="font-semibold"><a class="hover:underline" href="#recipe">Our Recipe Blog</a></h4>
-            <p class="flex text-left pb-3 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <figure>
-            <img class="float-left rounded-lg mr-3" src="/images/images (1).jpg" width="150" height="100">
-            </figure>
-        
-            <figcaption class="font-light">January 18, 2021</figcaption>
-            <h4 class="font-semibold"><a class="hover:underline" href="#recipe">Our Recipe Blog</a></h4>
-            <p class="flex text-left pb-3 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <figure>
-            <img class="float-left rounded-lg mr-3" src="/images/images (1).jpg" width="150" height="100">
-            </figure>
-        
-            <figcaption class="font-light">January 18, 2021</figcaption>
-            <h4 class="font-semibold"><a class="hover:underline" href="#recipe">Our Recipe Blog</a></h4>
-            <p class="flex text-left font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            
-        </div>
+            <div>
+                <figure>
+                    <img class="bg-zinc-900 rounded-2xl" src="/images/Male-Chef-Free-Commercial-Use-PNG-Image.png" width="400" height="400">
+                </figure>
+                <figcaption class="font-light text-center sm:text-left">January 18, 2021</figcaption>
+                <h4 class="font-semibold text-center sm:text-left"><a class="hover:underline" href="#recipe">Our Recipe Blog</a></h4>
+                <p class="flex font-light text-center sm:text-left p-2 sm:p-0 pb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore illum porro reprehenderit.</p>
+            </div>
+            <div>
+                <figure>
+                    <img class="float-left rounded-lg mr-3" src="/images/images (1).jpg" width="150" height="100">
+                </figure>
+
+                <figcaption class="font-light">January 18, 2021</figcaption>
+                <h4 class="font-semibold"><a class="hover:underline" href="#recipe">Our Recipe Blog</a></h4>
+                <p class="flex text-left pb-3 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <figure>
+                    <img class="float-left rounded-lg mr-3" src="/images/images (1).jpg" width="150" height="100">
+                </figure>
+
+                <figcaption class="font-light">January 18, 2021</figcaption>
+                <h4 class="font-semibold"><a class="hover:underline" href="#recipe">Our Recipe Blog</a></h4>
+                <p class="flex text-left pb-3 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <figure>
+                    <img class="float-left rounded-lg mr-3" src="/images/images (1).jpg" width="150" height="100">
+                </figure>
+
+                <figcaption class="font-light">January 18, 2021</figcaption>
+                <h4 class="font-semibold"><a class="hover:underline" href="#recipe">Our Recipe Blog</a></h4>
+                <p class="flex text-left font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            </div>
     </section>
 
     <section class="p-7">
         <div class=" p-7 text-center">
-    <h3 class="text-3xl">Subscribe to our newsletter</h3>
-    <p class="text-2xl font-thin pb-2">Subscribe to our newsletter and receive 15% discount</p>
-     <input class="border-2 mt-3 px-6 sm:px-20 py-5 rounded-full outline-none text-black" type="email" id="email" name="email" placeholder="@gmail.com">
-    <button class="relative left-16 bottom-14 p-2 bg-orange-500 text-white rounded-full sm:-left-28 sm:-bottom-0">Subscribe</button>
+            <h3 class="text-3xl">Subscribe to our newsletter</h3>
+            <p class="text-2xl font-thin pb-2">Subscribe to our newsletter and receive 15% discount</p>
+            <input class="border-2 mt-3 px-6 sm:px-20 py-5 rounded-full outline-none text-black" type="email" id="email" name="email" placeholder="@gmail.com">
+            <button class="relative left-16 bottom-14 p-2 bg-orange-500 text-white rounded-full sm:-left-28 sm:-bottom-0">Subscribe</button>
         </div>
     </section>
 
     <section class="mx-3" id="how">
         <h3 class="text-2xl font-semibold text-left pb-4 sm:ml-32">Featured Recipes</h3>
         <div class="flex flex-col items-center gap-3 mt-4 md:flex md:flex-row md:justify-around md:w-2/3 md:mx-auto md:gap-6 ">
-        <figure class="bg-zinc-200 w-2/3 p-5">
-            <img src="/images/Seafood-Pasta-Download-Free-PNG.png" width="200" height="200">
-            <figcaption class=" bg-orange-500 rounded-3xl text-white p-1 w-1/2 md:w-1/2 text-center relative bottom-48 md:bottom-36 ">10 Recipes</figcaption>
-        </figure>
-        
-        <figure class="bg-zinc-200 w-2/3 p-5">
-            <img src="/images/Noodles-PNG-Clipart-Background.png" width="200" height="200">
-            <figcaption class=" bg-orange-500 rounded-3xl text-white p-1 w-1/2 md:w-1/2 text-center relative bottom-48 md:bottom-36">20 Recipes</figcaption>
-        </figure>
-        
-        <figure class="bg-zinc-200 w-2/3 p-5">
-            <img src="/images/Saint-Honore-Download-Free-PNG.png" width="200" height="200">
-            <figcaption class=" bg-orange-500 rounded-3xl text-white p-1 w-1/2 md:w-1/2 text-center relative bottom-48 md:bottom-36">50 Recipes</figcaption>
-        </figure>
+            <figure class="bg-zinc-200 w-2/3 p-5">
+                <img src="/images/Seafood-Pasta-Download-Free-PNG.png" width="200" height="200">
+                <figcaption class=" bg-orange-500 rounded-3xl text-white p-1 w-1/2 md:w-1/2 text-center relative bottom-48 md:bottom-36 ">10 Recipes</figcaption>
+            </figure>
+
+            <figure class="bg-zinc-200 w-2/3 p-5">
+                <img src="/images/Noodles-PNG-Clipart-Background.png" width="200" height="200">
+                <figcaption class=" bg-orange-500 rounded-3xl text-white p-1 w-1/2 md:w-1/2 text-center relative bottom-48 md:bottom-36">20 Recipes</figcaption>
+            </figure>
+
+            <figure class="bg-zinc-200 w-2/3 p-5">
+                <img src="/images/Saint-Honore-Download-Free-PNG.png" width="200" height="200">
+                <figcaption class=" bg-orange-500 rounded-3xl text-white p-1 w-1/2 md:w-1/2 text-center relative bottom-48 md:bottom-36">50 Recipes</figcaption>
+            </figure>
         </div>
 
         <div class="flex flex-col items-center gap-4 mt-4 md:flex md:flex-row md:justify-around md:w-2/3 md:mx-auto md:gap-6">
-         <figure class="bg-zinc-200 w-2/3 p-5">
-            <img src="/images/Salads-Background-PNG-Image.png" width="200" height="200">
-            <figcaption class=" bg-orange-500 rounded-3xl text-white p-1 w-1/2 md:w-1/2 text-center relative bottom-48 md:bottom-36">7 Recipes</figcaption>
-        </figure>
-        
-       <figure class="bg-zinc-200 w-2/3 p-5">
-            <img src="/images/Seafood-Pasta-Download-Free-PNG.png" width="200" height="200">
-            <figcaption class=" bg-orange-500 rounded-3xl text-white p-1 w-1/2 md:w-1/2 text-center relative bottom-48 md:bottom-32">15 Recipes</figcaption>
-        </figure>
-        
-       <figure class="bg-zinc-200 w-2/3 p-5">
-            <img src="/images/Salmon-Sushi-PNG-Clipart-Background.png" width="200" height="200">
-            <figcaption class=" bg-orange-500 rounded-3xl text-white p-1 w-1/2 md:w-1/2 relative bottom-48 md:bottom-32">30 Recipes</figcaption>
-        </figure> 
-        </div>
-        </div>
-      </section>
+            <figure class="bg-zinc-200 w-2/3 p-5">
+                <img src="/images/Salads-Background-PNG-Image.png" width="200" height="200">
+                <figcaption class=" bg-orange-500 rounded-3xl text-white p-1 w-1/2 md:w-1/2 text-center relative bottom-48 md:bottom-36">7 Recipes</figcaption>
+            </figure>
 
-      <footer class=" bg-slate-100 p-5 dark:bg-black dark:text-white">
-       <h5 class="text-center text-orange-500 text-2xl font-semibold">FOODACE</h5>
-      <p class="text-center font-thin mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-      <div class="flex justify-center mb-3">
-        <img class="w-10 h-10 mx-2" src="/images/294073_facebook_icon.png">
-        <img class="w-10 h-10 mx-2" src="/images/294091_linkedin_icon.png">
-        <img class="w-10 h-10 mx-2" src="/images/294092_instagram_icon.png">
-        <img class="w-10 h-10 mx-2" src="/images/294068_twitter_icon.png">
-     </div>
-     <hr class="bg-black sm:bg-none dark:bg-slate-50">
-     <div class="flex justify-center">
-      <a class="mx-1 p-2" href="#recipe">Recipe</a>
-      <a class="mx-1 p-2" href="#how">Learn/How-to</a>
-      <a class="mx-1 p-2" href="#">Seasonal Sensations</a>
-      <a class="mx-1 p-2" href="#shop">Shop</a>
-     </div>
-     <hr class="bg-black sm:bg-none dark:bg-slate-50">
-     <div class="flex justify-evenly pt-2">
-     <p>&#169copyright 2022</p>
-     <p>Terms and Conditions</p>
-     <p>Privacy Policy</p>
+            <figure class="bg-zinc-200 w-2/3 p-5">
+                <img src="/images/Seafood-Pasta-Download-Free-PNG.png" width="200" height="200">
+                <figcaption class=" bg-orange-500 rounded-3xl text-white p-1 w-1/2 md:w-1/2 text-center relative bottom-48 md:bottom-32">15 Recipes</figcaption>
+            </figure>
+
+            <figure class="bg-zinc-200 w-2/3 p-5">
+                <img src="/images/Salmon-Sushi-PNG-Clipart-Background.png" width="200" height="200">
+                <figcaption class=" bg-orange-500 rounded-3xl text-white p-1 w-1/2 md:w-1/2 relative bottom-48 md:bottom-32">30 Recipes</figcaption>
+            </figure>
+        </div>
+        </div>
+    </section>
+
+    <footer class=" bg-slate-100 p-5 dark:bg-black dark:text-white">
+        <h5 class="text-center text-orange-500 text-2xl font-semibold">FOODACE</h5>
+        <p class="text-center font-thin mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="flex justify-center mb-3">
+            <img class="w-10 h-10 mx-2" src="/images/294073_facebook_icon.png" alt="logo-fbk">
+            <img class="w-10 h-10 mx-2" src="/images/294091_linkedin_icon.png" alt="logo-linkedin">
+            <img class="w-10 h-10 mx-2" src="/images/294092_instagram_icon.png" alt="logo-ig">
+            <img class="w-10 h-10 mx-2" src="/images/294068_twitter_icon.png" alt="logo-twitter">
+        </div>
+        <hr class="bg-black sm:bg-none dark:bg-slate-50">
+        <div class="flex justify-center">
+            <a class="mx-1 p-2" href="#recipe">Recipe</a>
+            <a class="mx-1 p-2" href="#how">Learn/How-to</a>
+            <a class="mx-1 p-2" href="#">Seasonal Sensations</a>
+            <a class="mx-1 p-2" href="#shop">Shop</a>
+        </div>
+        <hr class="bg-black sm:bg-none dark:bg-slate-50">
+        <div class="flex justify-evenly pt-2">
+            <p>&#169copyright 2022</p>
+            <p>Terms and Conditions</p>
+            <p>Privacy Policy</p>
     </footer>
 </body>
-</html> 
+
+</html>
